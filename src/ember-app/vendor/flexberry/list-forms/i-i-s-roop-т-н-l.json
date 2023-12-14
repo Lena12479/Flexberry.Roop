@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-roop-т-н-e",
+  "editForm": "i-i-s-roop-т-н-e",
+  "external": false,
+  "caption": "ТН",
+  "name": "IISRoopТНL",
+  "className": "ТНL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-roop-т-н",
+      "modelProjection": "ТНL"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "ТН",
+  "name": "IISRoopТНE",
+  "className": "ТНE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-roop-т-н",
+      "modelProjection": "ТНE"
+    }
+  ]
+}

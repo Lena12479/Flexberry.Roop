@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Акт приемки",
+  "name": "IISRoopАктПриемкиE",
+  "className": "АктПриемкиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-roop-акт-приемки",
+      "modelProjection": "АктПриемкиE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-roop-склад-e",
+  "editForm": "i-i-s-roop-склад-e",
+  "external": false,
+  "caption": "Склад",
+  "name": "IISRoopСкладL",
+  "className": "СкладL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-roop-склад",
+      "modelProjection": "СкладL"
+    }
+  ]
+}

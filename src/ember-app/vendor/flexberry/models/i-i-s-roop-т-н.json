@@ -1,0 +1,138 @@
+﻿{
+  "name": "IISRoopТН",
+  "modelName": "i-i-s-roop-т-н",
+  "className": "ТН",
+  "nameSpace": "IIS.Roop",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "колво",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "материал",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерТН",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерТС",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "поставщик",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТНE",
+      "modelName": "i-i-s-roop-т-н",
+      "attrs": [
+        {
+          "name": "номерТН",
+          "caption": "Номер ТН",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "поставщик",
+          "caption": "Поставщик",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "номерТС",
+          "caption": "Номер ТС",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "материал",
+          "caption": "Материал",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "колво",
+          "caption": "Колво",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ТНL",
+      "modelName": "i-i-s-roop-т-н",
+      "attrs": [
+        {
+          "name": "номерТН",
+          "caption": "Номер ТН",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "поставщик",
+          "caption": "Поставщик",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "номерТС",
+          "caption": "Номер ТС",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "материал",
+          "caption": "Материал",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "колво",
+          "caption": "Колво",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

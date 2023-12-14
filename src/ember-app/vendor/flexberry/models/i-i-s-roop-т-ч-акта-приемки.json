@@ -1,0 +1,117 @@
+﻿{
+  "name": "IISRoopТЧАктаПриемки",
+  "modelName": "i-i-s-roop-т-ч-акта-приемки",
+  "className": "ТЧАктаПриемки",
+  "nameSpace": "IIS.Roop",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имяСклада",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "колво",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "материал",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерПозиции",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧАктаПриемкиE",
+      "modelName": "i-i-s-roop-т-ч-акта-приемки",
+      "attrs": [
+        {
+          "name": "номерПозиции",
+          "caption": "Номер позиции",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "материал",
+          "caption": "Материал",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "колво",
+          "caption": "Колво",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "имяСклада",
+          "caption": "Имя склада",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ТЧАктаПриемкиL",
+      "modelName": "i-i-s-roop-т-ч-акта-приемки",
+      "attrs": [
+        {
+          "name": "номерПозиции",
+          "caption": "Номер позиции",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "материал",
+          "caption": "Материал",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "колво",
+          "caption": "Колво",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "имяСклада",
+          "caption": "Имя склада",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

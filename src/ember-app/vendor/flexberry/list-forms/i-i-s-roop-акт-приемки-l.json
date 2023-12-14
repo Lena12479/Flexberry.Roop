@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-roop-акт-приемки-e",
+  "editForm": "i-i-s-roop-акт-приемки-e",
+  "external": false,
+  "caption": "Акт приемки",
+  "name": "IISRoopАктПриемкиL",
+  "className": "АктПриемкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-roop-акт-приемки",
+      "modelProjection": "АктПриемкиL"
+    }
+  ]
+}

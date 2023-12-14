@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Заказ",
+  "name": "IISRoopЗаказE",
+  "className": "ЗаказE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-roop-заказ",
+      "modelProjection": "ЗаказE"
+    }
+  ]
+}

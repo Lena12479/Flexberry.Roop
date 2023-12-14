@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-roop-сотрудники-e",
+  "editForm": "i-i-s-roop-сотрудники-e",
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISRoopСотрудникиL",
+  "className": "СотрудникиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-roop-сотрудники",
+      "modelProjection": "СотрудникиL"
+    }
+  ]
+}

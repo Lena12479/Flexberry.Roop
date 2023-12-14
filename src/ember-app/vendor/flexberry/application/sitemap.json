@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Roop",
+  "applicationTitle": "Roop",
+  "items": [
+    {
+      "link": null,
+      "menuName": "roop",
+      "caption": "Roop",
+      "title": "Roop",
+      "children": [
+        {
+          "link": "i-i-s-roop-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-roop-акт-приемки-l",
+          "menuName": null,
+          "caption": "Акт приемки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-roop-склад-l",
+          "menuName": null,
+          "caption": "Склад",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-roop-отпуск-материала-l",
+          "menuName": null,
+          "caption": "Отпуск материала",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-roop-т-н-l",
+          "menuName": null,
+          "caption": "ТН",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-roop-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-roop-т-ч-акта-приемки-l",
+          "menuName": null,
+          "caption": "Т ч акта приемки",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

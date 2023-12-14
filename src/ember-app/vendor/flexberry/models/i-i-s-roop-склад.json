@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISRoopСклад",
+  "modelName": "i-i-s-roop-склад",
+  "className": "Склад",
+  "nameSpace": "IIS.Roop",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имяСклада",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодСклада",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СкладE",
+      "modelName": "i-i-s-roop-склад",
+      "attrs": [
+        {
+          "name": "кодСклада",
+          "caption": "Код склада",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "имяСклада",
+          "caption": "Имя склада",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СкладL",
+      "modelName": "i-i-s-roop-склад",
+      "attrs": [
+        {
+          "name": "кодСклада",
+          "caption": "Код склада",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "имяСклада",
+          "caption": "Имя склада",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

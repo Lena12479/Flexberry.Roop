@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-roop-отпуск-материала-e",
+  "editForm": "i-i-s-roop-отпуск-материала-e",
+  "external": false,
+  "caption": "Отпуск материала",
+  "name": "IISRoopОтпускМатериалаL",
+  "className": "ОтпускМатериалаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-roop-отпуск-материала",
+      "modelProjection": "ОтпускМатериалаL"
+    }
+  ]
+}

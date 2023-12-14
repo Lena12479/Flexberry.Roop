@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-roop-заказ-e",
+  "editForm": "i-i-s-roop-заказ-e",
+  "external": false,
+  "caption": "Заказ",
+  "name": "IISRoopЗаказL",
+  "className": "ЗаказL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-roop-заказ",
+      "modelProjection": "ЗаказL"
+    }
+  ]
+}
